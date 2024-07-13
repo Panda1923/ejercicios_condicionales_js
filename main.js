@@ -211,7 +211,7 @@ lugarDeNacimento: prompt("Ingrese lugar de nacimiento:")
 }
 console.log(documenNacional)
 if (confirm("¿Los datos estan correctos?")){
-    console.table(ocumenNacional)
+    console.table(documenNacional)
     console.log("Registro exitoso.")
 }
 else{
